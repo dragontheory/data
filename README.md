@@ -13,7 +13,7 @@ Single JSON data sourse for common multi-framework presentation layer.
         `                    `          /\               \        `
        `                    `          /::\  FRAMEWORK    \      `
       `  `  `  `  `  `  `  `  `  `  ` /::::\  angular-app  \ `  `
-   ___________                        /::::::\               \     
+   ___________                       /::::::\               \     
  /            \                     / ANGULAR\_______________\     
 | Bruh...      |                    \::::::::/               /      
 | That's cool  |               . . . \::::::/               / . . . .
