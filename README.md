@@ -7,8 +7,8 @@ Single JSON data sourse for common multi-framework presentation layer.
               // Front-Front-End   // Front-Back-End                    // Back-End
              `                    `                                    `
             `                    `                                    `
-           `                    `                                    `
-          `                    `                                    `
+           // GUI logic         // Data logic                        `
+          // State logic       // Business logig                    `
          `                    `          ________________          `  
         `                    `          /\               \        `
        `                    `          /::\  FRAMEWORK    \      `
@@ -22,11 +22,11 @@ Single JSON data sourse for common multi-framework presentation layer.
       |/             /::\ UI \    .     \/_____/::\  FRAMEWORK    \    .           /::\   \
    ////////         /::::\    \    .          /::::\  vue-app      \    .         /::::\   \  
   |  _ ^ |         /::::::\    \    .        /::::::\               \    .       /::::::\   \
- (|  o O |)       / Vanilla\____\    .      /:: VUE :\_______________\    .     /: JSON :\___\
-  |   U  |        \: HTML :/    /     .     \::::::::/               /     .    \::::::::/   /  
-  |   C  |         \ CSS :/ UX /. . . . . . .\::::::/               / . . . . . .\::::::/   /
-   \____/           \ JS /    /         .     \::::/     __________/_____    .    \::::/   / 
-    /| \             \::/ DX /           .     \::/     /\               \    .    \::/   /  
+ (|  o O |)       / Browser\____\    .      /:: VUE :\_______________\    .     /: JSON :\___\
+  |   U  |        \ Vanilla/    /     .     \::::::::/               /     .    \::::::::/   /  
+  |   C  |         \ HTML / UX /. . . . . . .\::::::/               / . . . . . .\::::::/   /
+   \____/           \CSS /    /         .     \::::/     __________/_____    .    \::::/   / 
+    /| \             \JS/ DX /           .     \::/     /\               \    .    \::/   /  
      |                \/____/             .     \/_____/::\  FRAMEWORK    \    .    \/___/
     / |                                    .          /::::\  react-app    \    .
   Joe User                DEV               .        /::::::\               \    .     DEV
